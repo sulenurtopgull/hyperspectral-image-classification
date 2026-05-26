@@ -1,0 +1,15 @@
+{
+  "dataset": "Pavia University",
+  "image_shape": [
+    610,
+    340,
+    103
+  ],
+  "ground_truth_shape": [
+    610,
+    340
+  ],
+  "spectral_bands": 103,
+  "labeled_pixels": 42776,
+  "num_classes": 9
+}

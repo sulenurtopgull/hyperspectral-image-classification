@@ -1,0 +1,17 @@
+class_id,class_name,accuracy,test_pixels
+1,Brocoli_green_weeds_1,0.9950248756218906,603
+2,Brocoli_green_weeds_2,1.0,1118
+3,Fallow,0.9983136593591906,593
+4,Fallow_rough_plow,0.992822966507177,418
+5,Fallow_smooth,0.9925280199252802,803
+6,Stubble,0.9974747474747475,1188
+7,Celery,0.9981378026070763,1074
+8,Grapes_untrained,0.9284235433303756,3381
+9,Soil_vinyard_develop,0.9978506179473401,1861
+10,Corn_senesced_green_weeds,0.9715157680569685,983
+11,Lettuce_romaine_4wk,0.98125,320
+12,Lettuce_romaine_5wk,1.0,578
+13,Lettuce_romaine_6wk,0.9890909090909091,275
+14,Lettuce_romaine_7wk,0.9813084112149533,321
+15,Vinyard_untrained,0.7794589637780834,2181
+16,Vinyard_vertical_trellis,0.992619926199262,542

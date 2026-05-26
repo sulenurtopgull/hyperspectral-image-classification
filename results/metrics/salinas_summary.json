@@ -1,0 +1,15 @@
+{
+  "dataset": "Salinas",
+  "image_shape": [
+    512,
+    217,
+    204
+  ],
+  "ground_truth_shape": [
+    512,
+    217
+  ],
+  "spectral_bands": 204,
+  "labeled_pixels": 54129,
+  "num_classes": 16
+}

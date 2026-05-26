@@ -1,0 +1,180 @@
+{
+  "overall_accuracy": 0.9541806280682615,
+  "average_accuracy": 0.9402038010594919,
+  "kappa": 0.9391921668579982,
+  "per_class_accuracy": [
+    {
+      "class_id": 1,
+      "class_name": "Asphalt",
+      "accuracy": 0.9572649572649573,
+      "test_pixels": 1989
+    },
+    {
+      "class_id": 2,
+      "class_name": "Meadows",
+      "accuracy": 0.9806970509383378,
+      "test_pixels": 5595
+    },
+    {
+      "class_id": 3,
+      "class_name": "Gravel",
+      "accuracy": 0.8365079365079365,
+      "test_pixels": 630
+    },
+    {
+      "class_id": 4,
+      "class_name": "Trees",
+      "accuracy": 0.9630032644178455,
+      "test_pixels": 919
+    },
+    {
+      "class_id": 5,
+      "class_name": "Painted metal sheets",
+      "accuracy": 1.0,
+      "test_pixels": 403
+    },
+    {
+      "class_id": 6,
+      "class_name": "Bare Soil",
+      "accuracy": 0.9198144466534128,
+      "test_pixels": 1509
+    },
+    {
+      "class_id": 7,
+      "class_name": "Bitumen",
+      "accuracy": 0.8922305764411027,
+      "test_pixels": 399
+    },
+    {
+      "class_id": 8,
+      "class_name": "Self-Blocking Bricks",
+      "accuracy": 0.9158371040723982,
+      "test_pixels": 1105
+    },
+    {
+      "class_id": 9,
+      "class_name": "Shadows",
+      "accuracy": 0.9964788732394366,
+      "test_pixels": 284
+    }
+  ],
+  "confusion_matrix": [
+    [
+      1904,
+      0,
+      6,
+      0,
+      0,
+      1,
+      40,
+      38,
+      0
+    ],
+    [
+      1,
+      5487,
+      0,
+      17,
+      0,
+      89,
+      0,
+      1,
+      0
+    ],
+    [
+      7,
+      1,
+      527,
+      0,
+      0,
+      0,
+      0,
+      95,
+      0
+    ],
+    [
+      0,
+      34,
+      0,
+      885,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      403,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      114,
+      0,
+      0,
+      1,
+      1388,
+      0,
+      5,
+      0
+    ],
+    [
+      42,
+      0,
+      0,
+      0,
+      0,
+      0,
+      356,
+      1,
+      0
+    ],
+    [
+      22,
+      2,
+      67,
+      0,
+      0,
+      2,
+      0,
+      1012,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      283
+    ]
+  ],
+  "labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "dataset": "Pavia University",
+  "model": "SVM_RBF",
+  "test_size": 0.3,
+  "pca_components": 30,
+  "random_state": 42,
+  "train_pixels": 29943,
+  "test_pixels": 12833
+}
