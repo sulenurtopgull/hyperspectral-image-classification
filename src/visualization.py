@@ -54,13 +54,17 @@ def save_class_distribution(distribution, output_path, title):
 
 
 def save_confusion_matrix(matrix, labels, output_path, title):
-    plt.figure(figsize=(10, 8))
+    size = max(8, len(labels) * 0.75)
+    plt.figure(figsize=(size + 2, size))
     sns.heatmap(
         matrix,
+        annot=True,
+        fmt="d",
         cmap="Blues",
         xticklabels=labels,
         yticklabels=labels,
         square=True,
+        annot_kws={"fontsize": 8},
         cbar_kws={"label": "Pixel count"},
     )
     plt.xlabel("Predicted class")
